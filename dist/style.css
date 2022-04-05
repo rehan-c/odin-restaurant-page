@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: grey;
+    background-image: url("https://wallpaperaccess.com/full/1320593.jpg");
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.heading-container, .info-container, .hours-container, .location-container, .menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,70%);
+    border-radius: 25px;
+    min-height: 80.88px;
+    margin: 2vh;
+}
+
+.heading, .info, .hours, .location, .menu {
+    display: flex;
+    justify-content: center;
+    max-width: 70%;
+    flex-direction: column;
+    padding: 2vh 0;
+}
+
+.info > p {
+    text-align: center;
+}
+
+img {
+    max-height: 30vh;
+    margin: 0 auto;
+    border-radius: 25px;
+    margin-bottom: 2vh;
+}
+
+.hours-and-location-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.menu > button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 1vh;
+}
+
+.menu > h2 {
+    text-align: center;
+}
+
+table {
+    min-width: 30vh;
+    text-align: center;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+}
